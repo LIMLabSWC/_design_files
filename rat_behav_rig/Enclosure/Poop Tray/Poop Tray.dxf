@@ -1,0 +1,1198 @@
+  0
+SECTION
+  2
+HEADER
+  9
+$ACADVER
+  1
+AC1006
+  9
+$AXISMODE
+ 70
+     1
+  9
+$AXISUNIT
+ 10
+0.125
+ 20
+0.125
+  9
+$CECOLOR
+ 62
+0
+  9
+$CELTYPE
+  6
+CONTINUOUS
+  9
+$CLAYER
+  8
+LAYER1
+  9
+$EXTMIN
+ 10
+0
+ 20
+0
+  9
+$EXTMAX
+ 10
+16
+ 20
+16
+  9
+$LIMMIN
+ 10
+0
+ 20
+0
+  9
+$LIMMAX
+ 10
+16
+ 20
+16
+  9
+$GRIDMODE
+ 70
+     0
+  9
+$GRIDUNIT
+ 10
+0.125
+ 20
+0.125
+  9
+$MIRRTEXT
+ 70
+     1
+  9
+$SNAPMODE
+ 70
+     1
+  9
+$SNAPUNIT
+ 10
+0.125
+ 20
+0
+  9
+$SNAPSTYLE
+ 70
+     0
+  9
+$SPLINESEGS
+ 70
+     8
+  9
+$SPLINETYPE
+ 70
+     6
+  0
+ENDSEC
+  0
+SECTION
+  2
+TABLES
+  0
+TABLE
+  2
+LTYPE
+ 70
+     1
+  0
+LTYPE
+  2
+CONTINUOUS
+ 70
+    64
+  3
+Descriptive Text
+ 72
+    65
+ 73
+     0
+ 40
+0
+  0
+ENDTAB
+  0
+TABLE
+  2
+LAYER
+ 70
+     1
+  0
+LAYER
+  2
+LAYER1
+ 70
+     0
+ 62
+     7
+  6
+CONTINUOUS
+  0
+ENDTAB
+  0
+TABLE
+  2
+STYLE
+ 70
+     1
+  0
+STYLE
+  2
+STANDARD
+ 70
+    64
+ 40
+0.0
+ 41
+1.0
+ 50
+0.0
+ 71
+     0
+ 42
+0.2
+  3
+txt
+  4
+
+  0
+STYLE
+  2
+ARIAL
+ 70
+    64
+ 40
+0.0
+ 41
+1.0
+ 50
+0.0
+ 71
+     0
+ 42
+0.2
+  3
+arial
+  4
+
+  0
+ENDTAB
+  0
+TABLE
+  2
+VIEW
+ 70
+     0
+  0
+ENDTAB
+  0
+TABLE
+  2
+USC
+ 70
+     0
+  0
+ENDTAB
+  0
+TABLE
+  2
+DWGMGR
+ 70
+     0
+  0
+ENDTAB
+  0
+ENDSEC
+  0
+SECTION
+  2
+BLOCKS
+  0
+ENDSEC
+  0
+SECTION
+  2
+ENTITIES
+  0
+POLYLINE
+  8
+LAYER1
+  6
+CONTINUOUS
+ 62
+   170
+ 66
+     1
+ 40
+0
+ 41
+0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+1
+ 20
+15
+ 30
+0
+ 70
+     0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+14.375
+ 20
+15
+ 30
+0
+ 70
+     0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+14.375
+ 20
+3.5
+ 30
+0
+ 70
+     0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+1
+ 20
+3.5
+ 30
+0
+ 70
+     0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+1
+ 20
+15
+ 30
+0
+ 70
+     0
+  0
+SEQEND
+  0
+POLYLINE
+  8
+LAYER1
+  6
+CONTINUOUS
+ 62
+     1
+ 66
+     1
+ 40
+0
+ 41
+0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+1
+ 20
+16
+ 30
+0
+ 70
+     0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+1
+ 20
+15
+ 30
+0
+ 70
+     0
+  0
+SEQEND
+  0
+POLYLINE
+  8
+LAYER1
+  6
+CONTINUOUS
+ 62
+     1
+ 66
+     1
+ 40
+0
+ 41
+0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+0
+ 20
+15
+ 30
+0
+ 70
+     0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+1
+ 20
+15
+ 30
+0
+ 70
+     0
+  0
+SEQEND
+  0
+POLYLINE
+  8
+LAYER1
+  6
+CONTINUOUS
+ 62
+     7
+ 66
+     1
+ 40
+0
+ 41
+0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+0
+ 20
+15
+ 30
+0
+ 70
+     0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+0
+ 20
+3.5
+ 30
+0
+ 70
+     0
+  0
+SEQEND
+  0
+POLYLINE
+  8
+LAYER1
+  6
+CONTINUOUS
+ 62
+     1
+ 66
+     1
+ 40
+0
+ 41
+0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+0
+ 20
+3.5
+ 30
+0
+ 70
+     0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+1
+ 20
+3.5
+ 30
+0
+ 70
+     0
+  0
+SEQEND
+  0
+POLYLINE
+  8
+LAYER1
+  6
+CONTINUOUS
+ 62
+     1
+ 66
+     1
+ 40
+0
+ 41
+0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+1
+ 20
+3.5
+ 30
+0
+ 70
+     0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+1
+ 20
+2.5
+ 30
+0
+ 70
+     0
+  0
+SEQEND
+  0
+POLYLINE
+  8
+LAYER1
+  6
+CONTINUOUS
+ 62
+     7
+ 66
+     1
+ 40
+0
+ 41
+0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+1
+ 20
+2.5
+ 30
+0
+ 70
+     0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+14.375
+ 20
+2.5
+ 30
+0
+ 70
+     0
+  0
+SEQEND
+  0
+POLYLINE
+  8
+LAYER1
+  6
+CONTINUOUS
+ 62
+     1
+ 66
+     1
+ 40
+0
+ 41
+0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+14.375
+ 20
+2.5
+ 30
+0
+ 70
+     0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+14.375
+ 20
+3.5
+ 30
+0
+ 70
+     0
+  0
+SEQEND
+  0
+POLYLINE
+  8
+LAYER1
+  6
+CONTINUOUS
+ 62
+     1
+ 66
+     1
+ 40
+0
+ 41
+0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+14.375
+ 20
+3.5
+ 30
+0
+ 70
+     0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+15.375
+ 20
+3.5
+ 30
+0
+ 70
+     0
+  0
+SEQEND
+  0
+POLYLINE
+  8
+LAYER1
+  6
+CONTINUOUS
+ 62
+     7
+ 66
+     1
+ 40
+0
+ 41
+0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+15.375
+ 20
+3.5
+ 30
+0
+ 70
+     0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+15.375
+ 20
+15
+ 30
+0
+ 70
+     0
+  0
+SEQEND
+  0
+POLYLINE
+  8
+LAYER1
+  6
+CONTINUOUS
+ 62
+     1
+ 66
+     1
+ 40
+0
+ 41
+0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+15.375
+ 20
+15
+ 30
+0
+ 70
+     0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+14.375
+ 20
+15
+ 30
+0
+ 70
+     0
+  0
+SEQEND
+  0
+POLYLINE
+  8
+LAYER1
+  6
+CONTINUOUS
+ 62
+     1
+ 66
+     1
+ 40
+0
+ 41
+0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+14.375
+ 20
+15
+ 30
+0
+ 70
+     0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+14.375
+ 20
+16
+ 30
+0
+ 70
+     0
+  0
+SEQEND
+  0
+POLYLINE
+  8
+LAYER1
+  6
+CONTINUOUS
+ 62
+     7
+ 66
+     1
+ 40
+0
+ 41
+0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+14.375
+ 20
+16
+ 30
+0
+ 70
+     0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+1
+ 20
+16
+ 30
+0
+ 70
+     0
+  0
+SEQEND
+  0
+CIRCLE
+  8
+LAYER1
+ 10
+5.688
+ 20
+15.5
+ 30
+0
+ 40
+0.1005
+  0
+CIRCLE
+  8
+LAYER1
+ 10
+9.688
+ 20
+15.5
+ 30
+0
+ 40
+0.1005
+  0
+POLYLINE
+  8
+LAYER1
+  6
+CONTINUOUS
+ 62
+     7
+ 66
+     1
+ 40
+0
+ 41
+0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+1.1603
+ 20
+2.0862
+ 30
+0
+ 70
+     0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+2.1603
+ 20
+2.0862
+ 30
+0
+ 70
+     0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+2.1603
+ 20
+1.0862
+ 30
+0
+ 70
+     0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+1.1603
+ 20
+1.0862
+ 30
+0
+ 70
+     0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+1.1603
+ 20
+2.0862
+ 30
+0
+ 70
+     0
+  0
+SEQEND
+  0
+TEXT
+  8
+LAYER1
+ 62
+     7
+ 10
+1.302
+ 20
+1.764
+ 30
+0
+ 40
+0.1806
+  1
+1 inch
+ 50
+0
+  7
+ARIAL
+999
+Arial
+  0
+TEXT
+  8
+LAYER1
+ 62
+     7
+ 10
+1.302
+ 20
+1.5151
+ 30
+0
+ 40
+0.1806
+  1
+square
+ 50
+0
+  7
+ARIAL
+999
+Arial
+  0
+TEXT
+  8
+LAYER1
+ 62
+     7
+ 10
+1.302
+ 20
+1.2662
+ 30
+0
+ 40
+0.1806
+  1
+scale
+ 50
+0
+  7
+ARIAL
+999
+Arial
+  0
+TEXT
+  8
+LAYER1
+ 62
+     7
+ 10
+2.6844
+ 20
+1.7835
+ 30
+0
+ 40
+0.1806
+  1
+Cut
+ 50
+0
+  7
+ARIAL
+999
+Arial
+  0
+TEXT
+  8
+LAYER1
+ 62
+     1
+ 10
+2.6844
+ 20
+1.5346
+ 30
+0
+ 40
+0.125
+  1
+Cut and weld
+ 50
+0
+  7
+ARIAL
+999
+Arial
+  0
+TEXT
+  8
+LAYER1
+ 62
+   170
+ 10
+2.6844
+ 20
+1.2616
+ 30
+0
+ 40
+0.125
+  1
+Bend 
+ 50
+0
+  7
+ARIAL
+999
+Arial
+  0
+TEXT
+  8
+LAYER1
+ 62
+   170
+ 10
+3.255
+ 20
+1.2616
+ 30
+0
+ 40
+0.125
+  1
+90
+ 50
+0
+  7
+ARIAL
+999
+Arial
+  0
+TEXT
+  8
+LAYER1
+ 62
+   170
+ 10
+3.49
+ 20
+1.3357
+ 30
+0
+ 40
+0.125
+  1
+o
+ 50
+0
+  7
+ARIAL
+999
+Arial
+  0
+TEXT
+  8
+LAYER1
+ 62
+   170
+ 10
+3.5694
+ 20
+1.2616
+ 30
+0
+ 40
+0.125
+  1
+ towards (valley)
+ 50
+0
+  7
+ARIAL
+999
+Arial
+  0
+POLYLINE
+  8
+LAYER1
+  6
+CONTINUOUS
+ 62
+     7
+ 66
+     1
+ 40
+0
+ 41
+0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+2.48
+ 20
+1.8666
+ 30
+0
+ 70
+     0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+2.6406
+ 20
+1.8666
+ 30
+0
+ 70
+     0
+  0
+SEQEND
+  0
+POLYLINE
+  8
+LAYER1
+  6
+CONTINUOUS
+ 62
+     1
+ 66
+     1
+ 40
+0
+ 41
+0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+2.48
+ 20
+1.6107
+ 30
+0
+ 70
+     0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+2.6406
+ 20
+1.6107
+ 30
+0
+ 70
+     0
+  0
+SEQEND
+  0
+POLYLINE
+  8
+LAYER1
+  6
+CONTINUOUS
+ 62
+   170
+ 66
+     1
+ 40
+0
+ 41
+0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+2.48
+ 20
+1.3722
+ 30
+0
+ 70
+     0
+  0
+VERTEX
+  8
+LAYER1
+ 10
+2.6406
+ 20
+1.3722
+ 30
+0
+ 70
+     0
+  0
+SEQEND
+  0
+ENDSEC
+  0
+EOF
