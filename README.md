@@ -10,9 +10,9 @@ It is mirrored to the shared folder at:
 
 ```
 .
-├── Edmunds\_designs     # Submodule: Edmund Chong’s mechanical designs
+├── Edmunds_designs     # Submodule: Edmund Chong’s mechanical designs
 ├── mouse-box           # Design files for the mouse behavioral box
-├── rat\_behav\_rig       # Design files for the rat behavioral rig
+├── rat_behav_rig       # Design files for the rat behavioral rig
 └── README.md
 ```
 
