@@ -1,0 +1,3 @@
+[submodule "Edmunds_designs"]
+	path = Edmunds_designs
+	url = https://github.com/edmundchong/Inventor.git
