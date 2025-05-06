@@ -6,7 +6,7 @@ It is mirrored to the shared folder at:
 
 
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 .
@@ -17,7 +17,7 @@ It is mirrored to the shared folder at:
 ```
 
 
-## 🔗 External Design Repositories (Git Submodules)
+## External Design Repositories (Git Submodules)
 
 Some folders in this repository are **Git submodules**—they link to external repositories maintained by individual lab members or collaborators.  
 This structure allows each contributor to manage their own designs independently while keeping everything accessible in one place.
