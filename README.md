@@ -22,13 +22,13 @@ It is mirrored to the shared folder at:
 Some folders in this repository are **Git submodules**—they link to external repositories maintained by individual lab members or collaborators.  
 This structure allows each contributor to manage their own designs independently while keeping everything accessible in one place.
 
-### 🔹 Example: `Edmunds_designs`
+### Example: `Edmunds_designs`
 - Maintained by: **Edmund Chong**
 - Source repo: [edmundchong/Inventor](https://github.com/edmundchong/Inventor)
 - Contains: Inventor files for various lab components
 
 
-## 🛠 Cloning This Repository (with Submodules)
+## Cloning This Repository (with Submodules)
 
 To ensure you clone all linked submodules:
 
@@ -43,7 +43,7 @@ git submodule update --init --recursive
 ```
 
 
-## 🔄 Keeping Submodules Up to Date
+## Keeping Submodules Up to Date
 
 To update a submodule (e.g., Edmund’s):
 
@@ -58,7 +58,7 @@ git commit -m "Update Edmunds_designs submodule"
 Repeat for other submodules as needed.
 
 
-## 📝 Notes
+## Notes
 
 * Only maintainers of a submodule's source repo should make edits within those folders.
 * If you'd like to contribute to a submodule, consider forking it or contacting the maintainer.
