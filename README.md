@@ -1,5 +1,9 @@
 # _design_files
 
+This repository stores the design files for all custom-made mechanical and electronic parts used in the lab.  
+It is mirrored to the shared folder at:  
+`/mnt/ceph/_design_files`
+
 ## Quick Start
 
 - **Looking for a specific design?**
@@ -19,12 +23,6 @@
 | Repix_CAD_files       | Neuropixels implant design files         | .step, .stl          | Viktor, Elena            |
 | np_calibration_files  | Neuropixels probe calibration data       | .csv                 | Viktor                   |
 | Edmunds_designs       | Submodule: Edmund Chong's designs        | .ipt, .stl           | Edmund                   |
-
-This repository stores the design files for all custom-made mechanical and electronic parts used in the lab.  
-It is mirrored to the shared folder at:  
-`/mnt/ceph/_design_files`
-
-
 
 ## Folder Structure
 
