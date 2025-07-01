@@ -49,7 +49,7 @@ This structure allows each contributor to manage their own designs independently
 
 ## Cloning This Repository (with Submodules)
 
-### ⚙️ Enabling Auto-Sync for Submodules (Git Hook)
+### Enabling Auto-Sync for Submodules (Git Hook)
 
 To keep submodules like `Edmunds_designs` automatically in sync after pulling updates, this repository includes a Git hook stored in `.githooks/`.
 
@@ -66,7 +66,7 @@ This configures Git to use the tracked hook, which:
 
 You only need to run this once per machine.
 
-### 📦 Cloning with Submodules
+### Cloning with Submodules
 
 To ensure you clone all linked submodules:
 
@@ -80,7 +80,7 @@ If you've already cloned the repo without submodules:
 git submodule update --init --recursive
 ```
 
-### 🔄 Keeping Submodules Up to Date Manually
+### Keeping Submodules Up to Date Manually
 
 To manually update a submodule (e.g., Edmund's):
 
@@ -95,7 +95,7 @@ git push
 
 Repeat for other submodules as needed.
 
-### 📝 Notes
+### Notes
 
 - Only maintainers of a submodule’s source repo should make edits inside those folders.
 - To contribute to a submodule, fork it or contact its maintainer.
