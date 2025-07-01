@@ -5,10 +5,10 @@ Design files for the mouse behavioral box, including mechanical parts, enclosure
 
 ## Subfolders & Files
 
-- `SP box/` — CAD files for the single poke (SP) mouse box
+- `SP_box/` — CAD files for the single poke (SP) mouse box
 - `PCB/` — Printed circuit board designs (modules, obsolete versions, etc.)
 - `Nose Port/` — Nose port mechanical files
-- `Head fixation/` — Head fixation device designs (final and older versions)
+- `Head_fixation/` — Head fixation device designs (final and older versions)
 - `Enclosure/` — Main enclosure CAD files
 - `OldVersions/` — Archived/older versions of parts
 - `Walls_schem.idw`, `Walls_schem.pdf` — Wall schematics (Inventor drawing and PDF)
