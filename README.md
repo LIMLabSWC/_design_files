@@ -11,10 +11,10 @@ It is mirrored to the shared folder at:
 ```
 .
 ├── Edmunds_designs      # Submodule: Edmund Chong’s mechanical designs
+├── Repix_CAD_files      # Design files for Neuropixels implants     
 ├── mouse-box            # Design files for the mouse behavioral box
 ├── np_calibration_files # Neuropixels configuration files
-├── rat_behav_rig        # Design files for the rat behavioral rig
-├── Repix_CAD_files      # Design files for Neuropixels implants        
+├── rat_behav_rig        # Design files for the rat behavioral rig   
 └── README.md
 ```
 
