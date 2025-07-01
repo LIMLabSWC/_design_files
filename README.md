@@ -12,13 +12,13 @@
 
 ## Repository Structure Summary
 
-| Folder                | Description                              | Main File Types      | Maintainer |
-|-----------------------|------------------------------------------|----------------------|------------|
-| rat_behav_rig         | Rat behavioral rig CAD & docs            | .ipt, .stl, .pdf     | TBD        |
-| mouse-box             | Mouse behavioral box designs             | .ipt, .stl, .pdf     | TBD        |
-| Repix_CAD_files       | Neuropixels implant design files         | .step, .stl          | TBD        |
-| np_calibration_files  | Neuropixels probe calibration data       | .csv                 | TBD        |
-| Edmunds_designs       | Submodule: Edmund Chong's designs        | .ipt, .stl           | Edmund Chong |
+| Folder                | Description                              | Main File Types      | Questions? Ask:          |
+|-----------------------|------------------------------------------|----------------------|--------------------------|
+| rat_behav_rig         | Rat behavioral rig CAD & docs            | .ipt, .stl, .pdf     | Viktor, Dammy, Lillianne |
+| mouse-box             | Mouse behavioral box designs             | .ipt, .stl, .pdf     | Dammy, Quentin           |
+| Repix_CAD_files       | Neuropixels implant design files         | .step, .stl          | Viktor, Elena            |
+| np_calibration_files  | Neuropixels probe calibration data       | .csv                 | Viktor                   |
+| Edmunds_designs       | Submodule: Edmund Chong's designs        | .ipt, .stl           | Edmund                   |
 
 This repository stores the design files for all custom-made mechanical and electronic parts used in the lab.  
 It is mirrored to the shared folder at:  
