@@ -47,6 +47,11 @@ This structure allows each contributor to manage their own designs independently
 - Source repo: [edmundchong/Inventor](https://github.com/edmundchong/Inventor)
 - Contains: Inventor files for various lab components
 
+## About `.gitmodules`
+
+The `.gitmodules` file tracks all submodules in this repository. It records the path and URL for each submodule, ensuring that everyone who clones the repository can initialize and update submodules easily.  
+**Keep this file as long as you use submodules.** If you remove all submodules, you can safely delete `.gitmodules`.
+
 ## Cloning This Repository (with Submodules)
 
 ### Enabling Auto-Sync for Submodules (Git Hook)
@@ -65,6 +70,8 @@ This configures Git to use the tracked hook, which:
 - Commits and pushes the updated submodule pointer (if needed)
 
 You only need to run this once per machine.
+
+**Advanced:** You can customize or add your own hooks in the `.githooks/` directory if you want to automate other Git actions.
 
 ### Cloning with Submodules
 
@@ -97,6 +104,6 @@ Repeat for other submodules as needed.
 
 ### Notes
 
-- Only maintainers of a submodule’s source repo should make edits inside those folders.
+- Only maintainers of a submodule's source repo should make edits inside those folders.
 - To contribute to a submodule, fork it or contact its maintainer.
 - To **add a new submodule**, please contact the main repository maintainer.
