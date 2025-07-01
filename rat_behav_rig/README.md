@@ -9,6 +9,7 @@ Design files for the rat behavioral rig, including mechanical parts, enclosures,
 - `Nose_Port/` — Nose port mechanical and PCB files
 - `Enclosure/` — Main rig enclosure, walls, doors, ceiling, and accessories
 - `Camera_enclosure/` — Camera mounting enclosure
+- `tall_rig/` — Design files for the tall rat rig variant, including schematics, wall/floor/door supports, and shelf parts (PDF and CDR formats)
 - `FabLab_path.md` — Notes or instructions for fabrication
 
 ## File Types & Recommended Software
@@ -16,7 +17,7 @@ Design files for the rat behavioral rig, including mechanical parts, enclosures,
 - `.ipt` — Autodesk Inventor (2021+ recommended)
 - `.stl`, `.step`, `.stp` — 3D models (open with Inventor, Fusion 360, or free viewers)
 - `.pdf` — Drawings, schematics, or documentation (open with any PDF reader)
-- `.dxf`, `.dwg` — 2D CAD (AutoCAD, LibreCAD, or compatible)
+- `.dxf`, `.dwg`, `.cdr` — 2D CAD (AutoCAD, LibreCAD, CorelDRAW, or compatible)
 - `.sch`, `.brd`, `.zip` (PCB) — Eagle or KiCad (for PCB design)
 - `.csv` — Calibration or data files (open with Excel, LibreOffice, or text editor)
 
@@ -24,7 +25,7 @@ Design files for the rat behavioral rig, including mechanical parts, enclosures,
 
 - Open CAD files with the recommended software above.
 - See subfolder READMEs (if present) for part-specific instructions or assembly notes.
-- For fabrication, check for `.pdf` or `.dxf` files for laser cutting or machining.
+- For fabrication, check for `.pdf`, `.cdr`, or `.dxf` files for laser cutting or machining.
 
 ## Maintainer
 
