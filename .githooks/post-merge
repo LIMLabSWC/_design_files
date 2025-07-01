@@ -1,0 +1,17 @@
+#!/bin/bash
+set -e
+
+echo "🔄 [Hook] Updating Edmunds_designs submodule..."
+
+# Update to the latest commit on the remote branch
+git submodule update --remote Edmunds_designs
+
+# Check if the submodule actually changed
+if ! git diff --quiet Edmunds_designs; then
+    echo "✅ [Hook] Submodule updated, committing..."
+    git add Edmunds_designs
+    git commit -m "Auto-sync: update Edmunds_designs submodule after merge"
+    git push
+else
+    echo "✅ [Hook] No changes to commit, submodule is already up-to-date."
+fi
