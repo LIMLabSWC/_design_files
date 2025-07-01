@@ -36,19 +36,37 @@ It is mirrored to the shared folder at:
 └── README.md
 ```
 
-
 ## External Design Repositories (Git Submodules)
 
 Some folders in this repository are **Git submodules**—they link to external repositories maintained by individual lab members or collaborators.  
 This structure allows each contributor to manage their own designs independently while keeping everything accessible in one place.
 
 ### Example: `Edmunds_designs`
+
 - Maintained by: **Edmund Chong**
 - Source repo: [edmundchong/Inventor](https://github.com/edmundchong/Inventor)
 - Contains: Inventor files for various lab components
 
-
 ## Cloning This Repository (with Submodules)
+
+### ⚙️ Enabling Auto-Sync for Submodules (Git Hook)
+
+To keep submodules like `Edmunds_designs` automatically in sync after pulling updates, this repository includes a Git hook stored in `.githooks/`.
+
+After cloning, run:
+
+```bash
+./setup_hooks.sh
+```
+
+This configures Git to use the tracked hook, which:
+
+- Automatically fetches and updates submodules after each `git pull`
+- Commits and pushes the updated submodule pointer (if needed)
+
+You only need to run this once per machine.
+
+### 📦 Cloning with Submodules
 
 To ensure you clone all linked submodules:
 
@@ -56,16 +74,15 @@ To ensure you clone all linked submodules:
 git clone --recurse-submodules https://github.com/akramilab/_design_files.git
 ```
 
-If you already cloned the repo without `--recurse-submodules`, run:
+If you've already cloned the repo without submodules:
 
 ```bash
 git submodule update --init --recursive
 ```
 
+### 🔄 Keeping Submodules Up to Date Manually
 
-## Keeping Submodules Up to Date
-
-To update a submodule (e.g., Edmund's):
+To manually update a submodule (e.g., Edmund's):
 
 ```bash
 cd Edmunds_designs
@@ -73,13 +90,13 @@ git pull origin main  # or the appropriate branch
 cd ..
 git add Edmunds_designs
 git commit -m "Update Edmunds_designs submodule"
+git push
 ```
 
 Repeat for other submodules as needed.
 
+### 📝 Notes
 
-## Notes
-
-* Only maintainers of a submodule's source repo should make edits within those folders.
-* If you'd like to contribute to a submodule, consider forking it or contacting the maintainer.
-* If you want to **add a new design folder as a submodule**, contact the repository maintainer so it can be added properly.
+- Only maintainers of a submodule’s source repo should make edits inside those folders.
+- To contribute to a submodule, fork it or contact its maintainer.
+- To **add a new submodule**, please contact the main repository maintainer.
