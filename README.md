@@ -1,5 +1,25 @@
 # _design_files
 
+## Quick Start
+
+- **Looking for a specific design?**
+  - See the summary table below to find which folder contains the files you need.
+  - Each major folder contains a README or index to help you navigate subfolders and file types.
+- **Cloning the repository?**
+  - Use `git clone --recurse-submodules` to get all submodules (see below for details).
+- **Need to open a file?**
+  - See folder READMEs for recommended software for each file type (e.g., Autodesk Inventor for `.ipt`, Eagle for `.sch`/`.brd`).
+
+## Repository Structure Summary
+
+| Folder                | Description                              | Main File Types      | Maintainer |
+|-----------------------|------------------------------------------|----------------------|------------|
+| rat_behav_rig         | Rat behavioral rig CAD & docs            | .ipt, .stl, .pdf     | TBD        |
+| mouse-box             | Mouse behavioral box designs             | .ipt, .stl, .pdf     | TBD        |
+| Repix_CAD_files       | Neuropixels implant design files         | .step, .stl          | TBD        |
+| np_calibration_files  | Neuropixels probe calibration data       | .csv                 | TBD        |
+| Edmunds_designs       | Submodule: Edmund Chong's designs        | .ipt, .stl           | Edmund Chong |
+
 This repository stores the design files for all custom-made mechanical and electronic parts used in the lab.  
 It is mirrored to the shared folder at:  
 `/mnt/ceph/_design_files`
@@ -10,7 +30,7 @@ It is mirrored to the shared folder at:
 
 ```
 .
-├── Edmunds_designs      # Submodule: Edmund Chong’s mechanical designs
+├── Edmunds_designs      # Submodule: Edmund Chong's mechanical designs
 ├── Repix_CAD_files      # Design files for Neuropixels implants     
 ├── mouse-box            # Design files for the mouse behavioral box
 ├── np_calibration_files # Neuropixels configuration files
@@ -36,7 +56,7 @@ To ensure you clone all linked submodules:
 
 ```bash
 git clone --recurse-submodules https://github.com/akramilab/_design_files.git
-````
+```
 
 If you already cloned the repo without `--recurse-submodules`, run:
 
@@ -47,7 +67,7 @@ git submodule update --init --recursive
 
 ## Keeping Submodules Up to Date
 
-To update a submodule (e.g., Edmund’s):
+To update a submodule (e.g., Edmund's):
 
 ```bash
 cd Edmunds_designs
