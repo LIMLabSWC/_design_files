@@ -7,7 +7,7 @@ This folder contains probe-specific calibration files for Neuropixels probes use
 
 ## Folder Structure
 
-- Each subfolder is named after a probe **serial number*- (e.g., `18442114072/`).
+- Each subfolder is named after a probe **serial number** (e.g., `18442114072/`).
 - Inside each folder you will find:
 
   - `<serial>_gainCalValues.csv` — gain calibration values
@@ -26,7 +26,7 @@ np_calibration_files/
 
 ## How to Use
 
-Copy the **per-serial folders*- into the directory where your acquisition software expects them:
+Copy the **per-serial folders** into the directory where your acquisition software expects them:
 
 - **Open Ephys (PXI plugin)**
 
@@ -44,8 +44,8 @@ The software will automatically match probes by serial number. No manual editing
 
 ## Notes
 
-- **NP1.0*- probes require both gain and ADC calibration files.
-- **NP2.0*- probes only use the gain calibration file.
+- **NP1.0** probes require both gain and ADC calibration files.
+- **NP2.0** probes only use the gain calibration file.
 - Keep this repository updated when new probes are added.
 
 
