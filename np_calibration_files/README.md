@@ -1,28 +1,53 @@
 # np_calibration_files
 
-**Purpose:**
-This folder contains calibration and configuration files for Neuropixels probes used in the lab. These files are essential for probe-specific gain and ADC calibration, ensuring accurate electrophysiological recordings.
+**Purpose**
+This folder contains probe-specific calibration files for Neuropixels probes used in the lab. These files ensure proper gain and ADC calibration for accurate electrophysiological recordings.
 
-## Folder Structure & Contents
 
-- Each top-level folder (e.g., `SO1939/`, `2.0/`) corresponds to a batch or version of Neuropixels probes.
-- Within each batch/version, subfolders are named by probe serial number (e.g., `19454411222/`).
-- Each probe folder contains calibration files:
-  - `*_gainCalValues.csv` — Gain calibration values for the probe
-  - `*_ADCCalibration.csv` — ADC calibration values
-- Additional folders may exist for other probe types or versions.
 
-## File Types & Recommended Software
+## Folder Structure
 
-- `.csv` — Calibration data (open with Excel, LibreOffice, or any text editor)
+- Each subfolder is named after a probe **serial number*- (e.g., `18442114072/`).
+- Inside each folder you will find:
+
+  - `<serial>_gainCalValues.csv` — gain calibration values
+  - `<serial>_ADCCalibration.csv` — ADC calibration values (only for NP1.0 probes)
+
+Example:
+
+```
+np_calibration_files/
+└── 18442114072/
+    ├── 18442114072_ADCCalibration.csv
+    └── 18442114072_gainCalValues.csv
+```
+
+
 
 ## How to Use
 
-- **Typical workflow:** Most users simply copy all calibration folders into their OpenEphys or SpikeGLX configuration directory, rather than identifying individual probes. The acquisition software will automatically use the correct calibration file for each probe based on its serial number.
-- If needed, you can identify your probe's serial number and locate the corresponding folder.
-- Use the calibration files during Neuropixels data acquisition or analysis as required by your workflow.
-- For more information on calibration procedures, refer to the main repository README or lab protocols.
+Copy the **per-serial folders*- into the directory where your acquisition software expects them:
 
-## Maintainer
+- **Open Ephys (PXI plugin)**
 
-- TBD (add name/email here) 
+  - `C:\Users\<username>\AppData\Local\Open Ephys\CalibrationInfo\` (GUI ≥ v1.0.0)
+  - `<Open Ephys install folder>\CalibrationInfo\` (any version)
+  - `C:\ProgramData\Open Ephys\CalibrationInfo\` (legacy)
+
+- **SpikeGLX**
+
+  - `<SpikeGLX install folder>\Calibration\`
+
+The software will automatically match probes by serial number. No manual editing is required.
+
+
+
+## Notes
+
+- **NP1.0*- probes require both gain and ADC calibration files.
+- **NP2.0*- probes only use the gain calibration file.
+- Keep this repository updated when new probes are added.
+
+
+
+
